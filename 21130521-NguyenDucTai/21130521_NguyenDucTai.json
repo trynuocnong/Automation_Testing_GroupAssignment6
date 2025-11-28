@@ -1,0 +1,1789 @@
+{
+  "TC0101": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"The Family Plan 2\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Watch now\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modalshare\\']/div/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div/div/div/div[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0102": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"The Family Plan 2\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Watch now\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modalshare\\']/div/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div/div/div/div[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[4]/video', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0103": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'mw-home\\']/div[5]/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Zootopia 2\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Watch now\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div/div/div/div[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[3]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[3]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0104": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'Go\n                            to HDToday\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Zootopia 2\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Watch now\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div/div/div/div[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[3]/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[3]/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0105": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Zootopia 2\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Watch now\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div/div/div/div[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[17]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[17]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[17]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div[2]/div[17]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0106": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'mw-home\\']/div[5]/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"The Family Plan 2\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Watch now\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div/div/div/div[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'megacloud-player\\']/div[3]/div[13]/div[4]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ],
+          "window": "window[0].frame[index=1]"
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0801": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Login\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 21130521@st.hcmuaf.edu.vn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "21130521@st.hcmuaf.edu.vn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Eternalflame999",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Eternalflame999",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0802": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Login\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 1",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "1",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 1",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "1",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0803": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'mw-home\\']/div[5]/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Login\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 21130521@st.hcmuaf.edu.vn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "21130521@st.hcmuaf.edu.vn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 1",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "1",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0804": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Login\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div/ul/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#username"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Nguyen Duc Hieu",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#username"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Nguyen Duc Hieu",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 21130521@st.hcmuaf.edu.vn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "21130521@st.hcmuaf.edu.vn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Eternalflame999",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Eternalflame999",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "refresh",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "location.reload();"
+      }
+    ]
+  },
+  "TC0805": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Login\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 21130521@st.hcmuaf.edu.vn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "21130521@st.hcmuaf.edu.vn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Eternalflame999",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Eternalflame999",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@type=\\'button\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/div/a[3]/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0806": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'mw-home\\']/div[5]/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div/ul/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Nguyen Duc Hieu",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#username"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Nguyen Duc Hieu",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "type 21130521@st.hcmuaf.edu.vn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "21130521@st.hcmuaf.edu.vn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "type Eternalflame999",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#re-password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Eternalflame999",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "type Eternalflame999",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#re-confirmpassword"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Eternalflame999",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+  "TC0807": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://hdtodayz.to/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://hdtodayz.to/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div/form/div[3]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#forgot-email"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 21130521@st.hcmuaf.edu.vn",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#forgot-email"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "21130521@st.hcmuaf.edu.vn",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'modal-tab-forgot\\']/div[2]/form/div[2]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  }
+}
