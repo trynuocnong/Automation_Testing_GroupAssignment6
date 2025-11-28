@@ -1,0 +1,814 @@
+{
+  "configuration": {
+    "device": {
+      "orientation": "landscape",
+      "deviceName": "Desktop"
+    }
+  },
+  "type": "clickpath",
+  "version": "1.0",
+  "events": [
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "[name=\"keyword\"]"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type Spider",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "[name=\"keyword\"]"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "Spider",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "send keys",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "javascript",
+      "javaScript": "\n                const keys = [13];\n                const elem = typeof $ !== 'undefined' ? $('[name=\"keyword\"]')[0] : document.querySelector('[name=\"keyword\"]');\n                keys.forEach((key) => {\n                    let eventObj = document.createEvent(\"Events\");\n                    eventObj.initEvent(\"keydown\", true, true);\n                    eventObj.key = key;\n                    eventObj.keyCode = key;\n                    eventObj.which = key;\n                    eventObj.charCode = key;\n                    \n                    elem.dispatchEvent(eventObj);\n                    eventObj = document.createEvent(\"Events\");\n                    eventObj.initEvent(\"keypress\", true, true);\n                    eventObj.key = key;\n                    eventObj.keyCode = key;\n                    eventObj.which = key;\n                    eventObj.charCode = key;\n                    elem.dispatchEvent(eventObj);\n                    \n                    eventObj = document.createEvent(\"Events\");\n                    eventObj.initEvent(\"keyup\", true, true);\n                    eventObj.key = key;\n                    eventObj.keyCode = key;\n                    eventObj.which = key;\n                    eventObj.charCode = key;\n                    elem.dispatchEvent(eventObj);\n                });"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/search/spider\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/search/spider"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Filter\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div/div[3]/div/div[2]/div[5]/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[2]/div[2]/div/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[4]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter?type=all&quality=all&release_year=2022&genre=10&country=all\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter?type=all&quality=all&release_year=2022&genre=10&country=all"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Filter\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[2]/div[2]/div/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[4]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter?type=all&quality=all&release_year=all&genre=10&country=all\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter?type=all&quality=all&release_year=all&genre=10&country=all"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/section/div/div[2]/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div/div[3]/div/div[2]/div[4]/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[4]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter?type=all&quality=all&release_year=2023&genre=10&country=all\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter?type=all&quality=all&release_year=2023&genre=10&country=all"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type abcxyz12345",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "abcxyz12345",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/search/abcxyz12345\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/search/abcxyz12345"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type %$#^^&%&^$",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "%$#^^&%&^$",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/search/%$#^^&%&^$\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/search/%$#^^&%&^$"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type Avengers Endgame",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "Avengers Endgame",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/search/avengers-endgame\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/search/avengers-endgame"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[3]/div/ul/li[29]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/country/KR\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/country/KR"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/genre/action\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/genre/action"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/section/div/div[2]/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div/div[3]/div/div[2]/div[4]/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[4]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter?type=all&quality=all&release_year=2023&genre=all&country=all\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter?type=all&quality=all&release_year=2023&genre=all&country=all"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/genre/action\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/genre/action"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[13]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/genre/horror\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/genre/horror"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Filter\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div/div/div/div[2]/div[2]/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[2]/div[2]/div[17]/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[3]/div[2]/div[15]/div/label', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'cate-filter\\']/div/div[4]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/filter?type=movie&quality=all&release_year=all&genre=34&country=105\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/filter?type=movie&quality=all&release_year=all&genre=34&country=105"
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[6]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/top-imdb\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/top-imdb"
+    }
+  ]
+}
