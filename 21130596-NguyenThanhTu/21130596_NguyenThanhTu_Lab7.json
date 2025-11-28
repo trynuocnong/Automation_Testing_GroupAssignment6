@@ -1,0 +1,1435 @@
+{
+  "test_plan_name": "Test Plan Tổng Hợp: Modules 04 và 14",
+  "project_tester": "21130596 - Nguyen Thanh Tu",
+  "date_generated": "2025-11-28",
+  "test_suites": [
+    {
+      "suite_id": "MOD04",
+      "suite_name": "Module 04 - Navigation Menu & Links",
+      "description": "Kiểm thử chức năng điều hướng và liên kết.",
+      "test_cases": [
+        // Nội dung của TC0401.json
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/home\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/home"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[contains(text(),\\'Movies\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[contains(text(),\\'TV Shows\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[contains(text(),\\'Home\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        }
+    ]
+}
+        // Nội dung của TC0402.json
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/home\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/home"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"Terms of service\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/terms\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/terms"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"Contact\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/contact\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/contact"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"FAQ\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/faq\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/faq"
+        }
+    ]
+}
+        // Nội dung của TC0403.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-dracula-hd-129142\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-dracula-hd-129142"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//img[@alt=\\'Logo\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/"
+        }
+    ]
+}
+        // Nội dung của TC0404.json
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-dracula-hd-129142\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-dracula-hd-129142"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/div[2]/div/nav/ol/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie"
+        }
+    ]
+}
+        // Nội dung của TC0405.json
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/country/US\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/country/US"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"2\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"3\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[@title=\\'Next\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[@title=\\'First\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[@title=\\'Last\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//a[@title=\\'Previous\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        }
+    ]
+}
+
+        // Nội dung của TC0406.json
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/home\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/home"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"FAQ\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/faq\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/faq"
+        }
+    ]
+}
+      ]
+    },
+    {
+      "suite_id": "MOD14",
+      "suite_name": "Module 14 - Movie Details Page",
+      "description": "Kiểm thử chức năng trang thông tin phim.",
+      "test_cases": [
+        // Nội dung của TC1401.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-inception-hd-19764\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-inception-hd-19764"
+        }
+    ]
+}
+        // Nội dung của TC1402.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/home\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/home"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/action\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/action"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[5]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/biography\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/biography"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[9]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/drama\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/drama"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[13]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/horror\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/horror"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[17]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/news\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/news"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[21]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/science-fiction\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/science-fiction"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[25]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/tv-movie\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/tv-movie"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/action-adventure\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/action-adventure"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[6]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/comedy\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/comedy"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[10]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/family\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/family"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[14]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/kids\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/kids"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[18]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/reality\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/reality"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[22]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/soap\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/soap"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[26]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/war\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/war"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[3]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/adventure\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/adventure"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[7]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/crime\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/crime"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[11]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/fantasy\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/fantasy"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[15]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/music\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/music"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[19]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/romance\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/romance"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[23]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/talk\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/talk"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[27]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/war-politics\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/war-politics"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[4]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/animation\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/animation"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[8]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/documentary\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/documentary"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[12]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/history\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/history"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[16]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/mystery\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/mystery"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[20]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/sci-fi-fantasy\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/sci-fi-fantasy"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[24]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/thriller\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/thriller"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li[28]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/genre/western\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/genre/western"
+        }
+    ]
+}
+        // Nội dung của TC1403.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-the-aviator-hd-19081\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-the-aviator-hd-19081"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"Leonardo DiCaprio\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/cast/leonardo-dicaprio\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/cast/leonardo-dicaprio"
+        }
+    ]
+}
+        // Nội dung của TC1404.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-the-aviator-hd-19081\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-the-aviator-hd-19081"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/div[2]/div[3]/div[2]/div/div[2]/div[2]/span/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'movie_player\\']/div[27]/div/div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ],
+                "window": "window[0].frame[index=1]"
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'modaltrailer\\']/div/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ],
+                "window": "window[0].frame[relative=parent]"
+            },
+            "type": "click",
+            "button": 0
+        }
+    ]
+}
+        // Nội dung của TC1405.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-the-aviator-hd-19081\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-the-aviator-hd-19081"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#st-1"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        }
+    ]
+}
+        // Nội dung của TC1406.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-the-aviator-hd-19081\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-the-aviator-hd-19081"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div[2]/div/section/div[2]/div/div/div/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-the-good-sister-hd-134068\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-the-good-sister-hd-134068"
+        }
+    ]
+}
+
+        // Nội dung của TC1407.json 
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://hdtodayz.to/movie/watch-the-aviator-hd-19081\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://hdtodayz.to/movie/watch-the-aviator-hd-19081"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "a:contains(\"Add to favorite\")"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        }
+    ]
+}
+      ]
+    }
+  ]
+}
