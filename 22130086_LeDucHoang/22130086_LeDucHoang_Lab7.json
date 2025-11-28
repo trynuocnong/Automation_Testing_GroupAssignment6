@@ -1,0 +1,2424 @@
+{
+  "configuration": {
+    "device": {
+      "orientation": "landscape",
+      "deviceName": "Desktop"
+    }
+  },
+  "type": "clickpath",
+  "version": "1.0",
+  "events": [
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 22130086@st.hcmuaf.edu.vn",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "22130086@st.hcmuaf.edu.vn",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type wrong_gmail@gmail.com",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "wrong_gmail@gmail.com",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type wrong_password",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "wrong_password",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Logout\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 22130086@st.hcmuaf.edu.vn",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "22130086@st.hcmuaf.edu.vn",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type avengers",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "avengers",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type abdcefgh",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "abdcefgh",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 22130086@st.hcmuaf.edu.vn",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "22130086@st.hcmuaf.edu.vn",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type avengers",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "avengers",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Logout\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Logout\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 22130086@st.hcmuaf.edu.vn",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "22130086@st.hcmuaf.edu.vn",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Logout\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type wrong_format",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "wrong_format",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 22130086@st.hcmuaf.edu.vn",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "22130086@st.hcmuaf.edu.vn",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type wrong_pass",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "wrong_pass",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type ",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type ",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Login\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type not_exist@gmail.com",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "not_exist@gmail.com",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Logout\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Register\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type acc_test",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "acc_test",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "type testcase12_6@gmail.com",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "testcase12_6@gmail.com",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type pass123",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "pass123",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type pass123",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "pass123",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Register\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type ",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "type ",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type ",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type ",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Logout\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Register\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type new_acc_test_2",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "new_acc_test_2",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "type testcase12_08@gmail.com",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "testcase12_08@gmail.com",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type pass123",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "pass123",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type pass123",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "pass123",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Register\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type new_acc_test_1",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "new_acc_test_1",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "type 22130086@st.hcmuaf.edu.vn",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "22130086@st.hcmuaf.edu.vn",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type pass123",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "pass123",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type wrong_re",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "wrong_re",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Register\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type new_acc_test_1",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "new_acc_test_1",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "type 22130086@st.hcmuaf.edu.vn",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "22130086@st.hcmuaf.edu.vn",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type pass123",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "pass123",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type pass123",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "pass123",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "Loading of \"https://hdtodayz.to/home\"",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {},
+      "type": "navigate",
+      "url": "https://hdtodayz.to/home"
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "a:contains(\"Register\")"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type new_acc_test_3",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-username"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "new_acc_test_3",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "type testcase12_011@gmail.com",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-email"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "testcase12_011@gmail.com",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-password"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    },
+    {
+      "description": "type 123456",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "css",
+            "value": "#re-confirmpassword"
+          }
+        ]
+      },
+      "type": "keystrokes",
+      "textValue": "123456",
+      "simulateBlurEvent": true,
+      "masked": false
+    },
+    {
+      "description": "click",
+      "wait": {
+        "waitFor": "page_complete"
+      },
+      "target": {
+        "locators": [
+          {
+            "type": "dom",
+            "value": "document.evaluate('//div[@id=\\'modal-tab-register\\']/div[2]/form/div[5]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+          }
+        ]
+      },
+      "type": "click",
+      "button": 0
+    }
+  ]
+}
