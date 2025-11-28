@@ -1,0 +1,1362 @@
+{
+    "metadata": {
+        "purpose": "Combined S05 and S09 automation suites for personal feature scripts",
+        "totalTestCases": 12,
+        "suites": [
+            {
+                "id": "S05",
+                "testCaseCount": 6,
+                "testCases": [
+                    "TC0501HoverUIButtons",
+                    "TC0502TabNavigation",
+                    "TC0503MousePressEffect",
+                    "TC0504ColorConsistency",
+                    "TC0505FontConsistency",
+                    "TC0506SpacingPadding"
+                ]
+            },
+            {
+                "id": "S09",
+                "testCaseCount": 6,
+                "testCases": [
+                    "TC0901AddMovieToWatchlist",
+                    "TC0902VerifyMovieInMyWatchlist",
+                    "TC0903RemoveMovieFromWatchlist",
+                    "TC0904PersistenceAfterRelogin",
+                    "TC0905PreventDuplicateAdd",
+                    "TC0906WatchlistLimitValidation"
+                ]
+            }
+        ]
+    },
+    "testCases": [
+        {
+            "suite": "S05",
+            "fileName": "TC0501HoverUIButtons.json",
+            "testCaseId": "TC0501",
+            "originalPath": "S05/TC0501HoverUIButtons.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/home\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/home"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/section/div/div[2]/ul/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S05",
+            "fileName": "TC0502TabNavigation.json",
+            "testCaseId": "TC0502",
+            "originalPath": "S05/TC0502TabNavigation.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/home\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/home"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/genre/action\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/genre/action"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[3]/div/ul/li[5]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/country/BR\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/country/BR"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[6]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/top-imdb\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/top-imdb"
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S05",
+            "fileName": "TC0503MousePressEffect.json",
+            "testCaseId": "TC0503",
+            "originalPath": "S05/TC0503MousePressEffect.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/top-imdb\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/top-imdb"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//img[@alt=\\'Logo\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//a[contains(text(),\\'View\n                            Full Site\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'trending-movies\\']/div/div/div/div/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/div[2]/div[3]/div/a/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S05",
+            "fileName": "TC0504ColorConsistency.json",
+            "testCaseId": "TC0504",
+            "originalPath": "S05/TC0504ColorConsistency.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/home\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/home"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/button/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/section[3]/div[2]/div/div[11]/div/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/tv/watch-adventure-time-fionna-cake-hd-99835\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/tv/watch-adventure-time-fionna-cake-hd-99835"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Adventure Time: Fionna & Cake\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S05",
+            "fileName": "TC0505FontConsistency.json",
+            "testCaseId": "TC0505",
+            "originalPath": "S05/TC0505FontConsistency.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'mw-home\\']/div[2]/h6', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Home\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[2]/div/ul/li/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "#main-wrapper"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[4]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[5]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li[6]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S05",
+            "fileName": "TC0506SpacingPadding.json",
+            "testCaseId": "TC0506",
+            "originalPath": "S05/TC0506SpacingPadding.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/home\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/home"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//button[@type=\\'button\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Profile\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/user/profile\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/user/profile"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'header_menu\\']/ul/li/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Home\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S09",
+            "fileName": "TC0901AddMovieToWatchlist.json",
+            "testCaseId": "TC0901",
+            "originalPath": "S09/TC0901AddMovieToWatchlist.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/home\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/home"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "type zoo",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'search-home\\']/div/form/input', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "keystrokes",
+                        "textValue": "zoo",
+                        "simulateBlurEvent": true,
+                        "masked": false
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'search-home\\']/div/div/a/div/img', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/movie/watch-zoo-hd-14620\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/movie/watch-zoo-hd-14620"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Add to favorite\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S09",
+            "fileName": "TC0902VerifyMovieInMyWatchlist.json",
+            "testCaseId": "TC0902",
+            "originalPath": "S09/TC0902VerifyMovieInMyWatchlist.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/movie/watch-zoo-hd-14620\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/movie/watch-zoo-hd-14620"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'user-slot\\']/div/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"My Favorite\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/user/favorite\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/user/favorite"
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S09",
+            "fileName": "TC0903RemoveMovieFromWatchlist.json",
+            "testCaseId": "TC0903",
+            "originalPath": "S09/TC0903RemoveMovieFromWatchlist.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/user/favorite\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/user/favorite"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@onclick=\\'remove_favorite(150352384)\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/section/div[2]/div/div/div/div[2]/i', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S09",
+            "fileName": "TC0904PersistenceAfterRelogin.json",
+            "testCaseId": "TC0904",
+            "originalPath": "S09/TC0904PersistenceAfterRelogin.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//button[@type=\\'button\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Logout\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Home\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'modal-tab-login\\']/div[2]/form/div[4]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//button[@type=\\'button\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"My Favorite\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S09",
+            "fileName": "TC0905PreventDuplicateAdd.json",
+            "testCaseId": "TC0905",
+            "originalPath": "S09/TC0905PreventDuplicateAdd.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/user/favorite\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/user/favorite"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'main-wrapper\\']/div/section/div[2]/div/div/div/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/movie/watch-zoo-hd-14620\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/movie/watch-zoo-hd-14620"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Remove from favorite\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Add to favorite\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Remove from favorite\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        },
+        {
+            "suite": "S09",
+            "fileName": "TC0906WatchlistLimitValidation.json",
+            "testCaseId": "TC0906",
+            "originalPath": "S09/TC0906WatchlistLimitValidation.json",
+            "content": {
+                "configuration": {
+                    "device": {
+                        "orientation": "landscape",
+                        "deviceName": "Desktop"
+                    }
+                },
+                "type": "clickpath",
+                "version": "1.0",
+                "events": [
+                    {
+                        "description": "Loading of \"https://hdtoday.gg/\"",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {},
+                        "type": "navigate",
+                        "url": "https://hdtoday.gg/"
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "css",
+                                    "value": "a:contains(\"Home\")"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//div[@id=\\'trending-movies\\']/div/div/div[13]/div/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//a[@onclick=\"add_favorite(\\'detail\\')\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'HD\\'])[10]/following::a[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//a[@onclick=\"add_favorite(\\'detail\\')\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'HD\\'])[17]/following::a[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//a[@onclick=\"add_favorite(\\'detail\\')\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//a[@onclick=\"add_favorite(\\'detail\\')\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('(.//*[normalize-space(text()) and normalize-space(.)=\\'HD\\'])[13]/following::a[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    },
+                    {
+                        "description": "click",
+                        "wait": {
+                            "waitFor": "page_complete"
+                        },
+                        "target": {
+                            "locators": [
+                                {
+                                    "type": "dom",
+                                    "value": "document.evaluate('//a[@onclick=\"add_favorite(\\'detail\\')\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                                }
+                            ]
+                        },
+                        "type": "click",
+                        "button": 0
+                    }
+                ]
+            }
+        }
+    ]
+}
