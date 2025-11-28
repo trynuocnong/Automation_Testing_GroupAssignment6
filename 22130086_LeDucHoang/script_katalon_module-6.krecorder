@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Assignment5 Test Suite</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC01: Login Valid</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://hdtodayz.to/home<datalist><option>https://hdtodayz.to/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Login<datalist><option>link=Login</option><option>xpath=//a[contains(text(),'Login')]</option><option>xpath=//div[@id='user-slot']/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Android App'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Top IMDB'])[2]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find Movies, TV shows and more'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shares'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Login']/parent::*</option><option>xpath=//div[2]/div/a</option><option>css=a.btn.btn-sm.btn-on-header.btn-login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td>22130086@st.hcmuaf.edu.vn</td></tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td>123456</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button<datalist><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::button[1]</option><option>xpath=//div[4]/button</option><option>css=button.btn.btn-primary.btn-block</option></datalist></td><td></td></tr>
+<tr><td>verifyTextPresent</td><td>tester1_st<datalist><option>tester1_st</option></datalist></td><td>true</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC02 - PreSupport </td></tr>
+</thead>
+<tbody>
+<tr><td>click</td><td>xpath=//div[@id='user-slot']/div/div/button/span<datalist><option>xpath=//div[@id='user-slot']/div/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Android App'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Top IMDB'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Favorite'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='tester1_st']/parent::*</option><option>xpath=//span</option><option>css=span</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Logout<datalist><option>link=Logout</option><option>xpath=//a[contains(text(),'Logout')]</option><option>xpath=//div[@id='user-slot']/div/div/div/a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Favorite'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('Search results for ', '"', 'abdcefgh', '"', '')])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Logout']/parent::*</option><option>xpath=//a[contains(@href, '/logout')]</option><option>xpath=//a[3]</option><option>css=a.dropdown-item.text-danger</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC02: Login Invalid</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://hdtodayz.to/home<datalist><option>https://hdtodayz.to/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Login<datalist><option>link=Login</option><option>xpath=//a[contains(text(),'Login')]</option><option>xpath=//div[@id='user-slot']/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Android App'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Top IMDB'])[2]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find Movies, TV shows and more'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shares'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Login']/parent::*</option><option>xpath=//div[2]/div/a</option><option>css=a.btn.btn-sm.btn-on-header.btn-login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td>wrong_gmail@gmail.com</td></tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td>wrong_password</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button<datalist><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::button[1]</option><option>xpath=//div[4]/button</option><option>css=button.btn.btn-primary.btn-block</option></datalist></td><td></td></tr>
+<tr><td>verifyTextPresent</td><td>Email or password is invalid<datalist><option>tester1_st</option><option>tester1_stEmail or password is invalid.</option><option>Email or password is invalid</option></datalist></td><td>true</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC03 - PreSupport</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://hdtodayz.to/home<datalist><option>https://hdtodayz.to/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Login<datalist><option>link=Login</option><option>xpath=//a[contains(text(),'Login')]</option><option>xpath=//div[@id='user-slot']/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Android App'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Top IMDB'])[2]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find Movies, TV shows and more'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shares'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Login']/parent::*</option><option>xpath=//div[2]/div/a</option><option>css=a.btn.btn-sm.btn-on-header.btn-login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td>22130086@st.hcmuaf.edu.vn</td></tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td>123456</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button<datalist><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::button[1]</option><option>xpath=//div[4]/button</option><option>css=button.btn.btn-primary.btn-block</option></datalist></td><td></td></tr>
+<tr><td>verifyTextPresent</td><td>tester1_st<datalist><option>tester1_st</option></datalist></td><td>true</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC03: Search Valid </td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://hdtodayz.to/home<datalist><option>https://hdtodayz.to/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='search-home']/div/form/input<datalist><option>xpath=//div[@id='search-home']/div/form/input</option><option>xpath=//div[2]/div/form/input</option><option>css=#search-home > div.search-content > form > input[name="keyword"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//div[@id='search-home']/div/form/input<datalist><option>xpath=//div[@id='search-home']/div/form/input</option><option>xpath=//div[2]/div/form/input</option><option>css=#search-home > div.search-content > form > input[name="keyword"]</option></datalist></td><td>avengers</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='search-home']/div/form/button/i<datalist><option>xpath=//div[@id='search-home']/div/form/button/i</option><option>xpath=//form/button/i</option><option>css=i.fas.fa-arrow-right</option></datalist></td><td></td></tr>
+<tr><td>verifyTextPresent</td><td>Search results<datalist><option>Email or password is invalid</option><option>tester1_st</option><option>tester1_stEmail or password is invalid.</option><option>Search results</option></datalist></td><td>true</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC04: Search Invalid</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://hdtodayz.to/home<datalist><option>https://hdtodayz.to/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='search-home']/div/form/input<datalist><option>xpath=//div[@id='search-home']/div/form/input</option><option>xpath=//div[2]/div/form/input</option><option>css=#search-home > div.search-content > form > input[name="keyword"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//div[@id='search-home']/div/form/input<datalist><option>xpath=//div[@id='search-home']/div/form/input</option><option>xpath=//div[2]/div/form/input</option><option>css=#search-home > div.search-content > form > input[name="keyword"]</option></datalist></td><td>abdcefgh</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='search-home']/div/form/button/i<datalist><option>xpath=//div[@id='search-home']/div/form/button/i</option><option>xpath=//form/button/i</option><option>css=i.fas.fa-arrow-right</option></datalist></td><td></td></tr>
+<tr><td>verifyTextPresent</td><td>Search results<datalist><option>Email or password is invalid</option><option>tester1_st</option><option>tester1_stEmail or password is invalid.</option><option>Search results</option></datalist></td><td>true</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC05 - PreSupport</td></tr>
+</thead>
+<tbody>
+<tr><td>click</td><td>xpath=//div[@id='user-slot']/div/div/button/span<datalist><option>xpath=//div[@id='user-slot']/div/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Android App'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Top IMDB'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Favorite'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='tester1_st']/parent::*</option><option>xpath=//span</option><option>css=span</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Logout<datalist><option>link=Logout</option><option>xpath=//a[contains(text(),'Logout')]</option><option>xpath=//div[@id='user-slot']/div/div/div/a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Favorite'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('Search results for ', '"', 'abdcefgh', '"', '')])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Logout']/parent::*</option><option>xpath=//a[contains(@href, '/logout')]</option><option>xpath=//a[3]</option><option>css=a.dropdown-item.text-danger</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">TC05: Integration( Login - Search - Logout )</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://hdtodayz.to/home<datalist><option>https://hdtodayz.to/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Login<datalist><option>link=Login</option><option>xpath=//a[contains(text(),'Login')]</option><option>xpath=//div[@id='user-slot']/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Android App'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Top IMDB'])[2]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Find Movies, TV shows and more'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shares'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Login']/parent::*</option><option>xpath=//div[2]/div/a</option><option>css=a.btn.btn-sm.btn-on-header.btn-login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=email<datalist><option>id=email</option><option>xpath=//input[@id='email']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div/input</option><option>xpath=//div/input</option><option>css=#email</option></datalist></td><td>22130086@st.hcmuaf.edu.vn</td></tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>xpath=//input[@id='password']</option><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=#password</option></datalist></td><td>123456</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button<datalist><option>xpath=//div[@id='modal-tab-login']/div[2]/form/div[4]/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::button[1]</option><option>xpath=//div[4]/button</option><option>css=button.btn.btn-primary.btn-block</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://hdtodayz.to/home<datalist><option>https://hdtodayz.to/home</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='search-home']/div/form/input<datalist><option>xpath=//div[@id='search-home']/div/form/input</option><option>xpath=//div[2]/div/form/input</option><option>css=#search-home > div.search-content > form > input[name="keyword"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//div[@id='search-home']/div/form/input<datalist><option>xpath=//div[@id='search-home']/div/form/input</option><option>xpath=//div[2]/div/form/input</option><option>css=#search-home > div.search-content > form > input[name="keyword"]</option></datalist></td><td>avengers</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='search-home']/div/form/button/i<datalist><option>xpath=//div[@id='search-home']/div/form/button/i</option><option>xpath=//form/button/i</option><option>css=i.fas.fa-arrow-right</option></datalist></td><td></td></tr>
+<tr><td>verifyTextPresent</td><td>Search results<datalist><option>Search results</option><option>Email or password is invalid</option><option>tester1_st</option><option>tester1_stEmail or password is invalid.</option></datalist></td><td>true</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='user-slot']/div/div/button/span<datalist><option>xpath=//div[@id='user-slot']/div/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Android App'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Top IMDB'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Favorite'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='tester1_st']/parent::*</option><option>xpath=//span</option><option>css=span</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Logout<datalist><option>link=Logout</option><option>xpath=//a[contains(text(),'Logout')]</option><option>xpath=//div[@id='user-slot']/div/div/div/a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Favorite'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('Search results for ', '"', 'abdcefgh', '"', '')])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Logout']/parent::*</option><option>xpath=//a[contains(@href, '/logout')]</option><option>xpath=//a[3]</option><option>css=a.dropdown-item.text-danger</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://hdtodayz.to/<datalist><option>https://hdtodayz.to/</option></datalist></td><td>true</td></tr>
+</tbody></table>
+</body>
+</html>
