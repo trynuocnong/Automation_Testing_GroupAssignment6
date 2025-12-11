@@ -6970,4 +6970,46 @@
       }
     ]
   }
+[//"TC13":Continue Watching
+  {
+    "command": "open",
+    "target": "https://hdtoday.gg/watch-movie/watch-zootopia-2-hd-138460.12840997",
+    "value": ""
+  },
+  {
+    "command": "selectFrame",
+    "target": "index=0",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='megacloud-player']/div[3]/div[13]/div[4]/div[2]/div",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='megacloud-player']/div[3]/div[13]/div[4]/div[2]/div",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='megacloud-player']/div[3]/div[13]/div[4]/div[2]/div",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='megacloud-player']/div[3]/div[4]/video",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='megacloud-player']/div[3]/div[13]/div[4]/div[2]/div",
+    "value": ""
+  },
+  {
+    "command": "click",
+    "target": "xpath=//div[@id='megacloud-player']/div[3]/div[13]/div[4]/div[2]/div",
+    "value": ""
+  }
+]
 }
